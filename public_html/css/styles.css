@@ -1,0 +1,38 @@
+.error {
+  border: solid 1px rgb(240, 98, 98);
+  color: rgb(240, 98, 98);
+  margin: 1rem 0;
+  padding: 8px 16px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.movieCard {
+  border-radius: 6px;
+  border: solid 1px rgb(42, 42, 42);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 16px 16px;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+}
+
+figure {
+  margin: 0;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
